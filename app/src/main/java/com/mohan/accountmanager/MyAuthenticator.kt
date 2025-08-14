@@ -14,7 +14,7 @@ import android.util.Log
 class MyAuthenticator(private val context: Context) : AbstractAccountAuthenticator(context) {
 
     companion object {
-        const val ACCOUNT_TYPE = "com.polestar.auth"
+        const val ACCOUNT_TYPE = "com.mohan.auth"
         const val AUTH_TOKEN_TYPE = "full_access"
     }
 
